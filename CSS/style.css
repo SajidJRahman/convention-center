@@ -1,0 +1,19 @@
+#bg-navbar{
+    background-color: #FFFFFF;
+}
+#navbar-padding{
+    padding: 30px;
+}
+#navbar-h1{
+    font-size: 22px;
+    font-weight: 800;
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgba(62, 62, 62, 1);
+    margin: 0px;
+}
+#navbar-links{
+    font-size: 16px;
+    font-weight: 700;
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgba(62, 62, 62, 1);
+}
