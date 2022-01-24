@@ -23,8 +23,9 @@
     font-size: 38px;
     font-family: 'Poppins', sans-serif;
 }
-.our-packages-padding{
-    padding: 100px;
+.title-padding{
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 .card-title-padding{
     padding-bottom: 10px;
@@ -60,4 +61,20 @@
 }
 .card-shadow-blue{
     box-shadow: 0px 8px 20px rgb(63, 139, 253)
+}
+
+
+
+
+#faq-margin{
+    margin-bottom: 130px;
+}
+#bg-footer{
+    background-color: black;
+}
+#footer-padding{
+    padding: 64px;
+}
+.footer-text{
+    color: #D9DBE1;
 }
