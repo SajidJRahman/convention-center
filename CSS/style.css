@@ -7,13 +7,57 @@
 #navbar-h1{
     font-size: 22px;
     font-weight: 800;
-    /* font-family: 'Poppins', sans-serif; */
     color: rgba(62, 62, 62, 1);
     margin: 0px;
 }
 #navbar-links{
     font-size: 16px;
     font-weight: 700;
-    /* font-family: 'Poppins', sans-serif; */
     color: rgba(62, 62, 62, 1);
+}
+/* .carousel-position{
+    top: 0px;
+    bottom: auto;
+} */
+.title-h1{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+.our-packages-padding{
+    padding: 100px;
+}
+.card-title-padding{
+    padding-bottom: 10px;
+}
+.card-radius{
+    border-radius: 26px;
+}
+.card-margin{
+    margin: 17px;
+}
+.card-padding{
+    padding: 25px 15px;
+}
+.card-link-text{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(63, 135, 245, 1);
+}
+.card-color{
+    background-color: rgba(63, 135, 245, 1);
+}
+.card-title-font{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.card-title-font-2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.text-color{
+    color:rgba(132, 129, 153, 1);
+}
+.card-shadow-blue{
+    box-shadow: 0px 8px 20px rgb(63, 139, 253)
 }

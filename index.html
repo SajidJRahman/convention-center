@@ -12,9 +12,12 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/82d066f77a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body">
     <!-- navbar & carousel -->
     <header>
         <div class="container d-flex justify-content-between align-items-center" id="navbar-padding">
@@ -29,14 +32,15 @@
                             <a id="navbar-links" class="nav-link" aria-current="page" href="#">Home</a>
                             <a id="navbar-links" class="nav-link" href="#">About Us</a>
                             <a id="navbar-links" class="nav-link" href="#">Contect</a>
-                            <a id="navbar-links" class="nav-link" href="#">Subscribe</a>
+                            <a id="navbar-links" class="nav-link" href="#pricing">Pricing</a>
+                            <a id="navbar-links" class="nav-link" href="#">FAQ</a>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
         <!-- carousel section -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -44,43 +48,105 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner/banner-1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
+                    <img src="images/banner/banner-1.jpg" class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption carousel-position">
                         <h1>The perfect venue for your next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <a class="btn btn-light" href="">Book Now</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner/banner-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
+                    <img src="images/banner/banner-2.jpg" class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption carousel-position">
                         <h1>The perfect venue for your next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <a class="btn btn-light" href="">Book Now</a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner/banner-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
+                    <img src="images/banner/banner-3.jpg" class="d-block img-fluid" alt="...">
+                    <div class="carousel-caption carousel-position">
                         <h1>The perfect venue for your next event</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
                         <a class="btn btn-light" href="">Book Now</a>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </header>
-
-    
-
+    <main>
+        <!-- our packages section -->
+        <section class="container-fluid" id="pricing">
+            <h1 class="text-center our-packages-padding title-h1">Our Packages</h1>
+            <div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-2 col-md-4 col-sm-12 card card-radius card-margin border-0 card-padding shadow" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-padding card-title-font">$300</h5>
+                            <h5 class="card-title card-title-padding card-title-font-2">Business fair</h5>
+                            <p class="card-text text-color">For most businesses event like book fair, craft fair.</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Limited Space Access</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Secuirty Facility</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Event Support</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Decoration Design</p>
+                            <p class="card-text text-color"><i class="fas fa-check-circle"></i> Per Day Bill</p>
+                            <a href="#" class="btn btn-light rounded-pill card-link-text d-grid gap-2 d-md-block">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 card card-radius card-margin border-0 card-padding shadow" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-padding card-title-font">$500</h5>
+                            <h5 class="card-title card-title-padding card-title-font-2">Wedding basic</h5>
+                            <p class="card-text text-color mb-2">For weddings with basic plan and limited item</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Full Space Access</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Food Arrangement</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Mangement Support</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Decoration Design</p>
+                            <p class="card-text text-color"><i class="fas fa-check-circle"></i> Billed As Shift</p>
+                            <a href="#" class="btn btn-light rounded-pill card-link-text d-grid gap-2 d-md-block">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 card card-radius card-margin border-0 card-color text-white card-padding card-shadow-blue" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-padding card-title-font">$800</h5>
+                            <h5 class="card-title card-title-padding card-title-font-2">Wedding plus</h5>
+                            <p class="card-text mb-2">For most weddings with premium plans</p>
+                            <p class="card-text mb-2"><i class="fas fa-check-circle"></i> Full Space Access</p>
+                            <p class="card-text mb-2"><i class="fas fa-check-circle"></i> Dedicated Team</p>
+                            <p class="card-text mb-2"><i class="fas fa-check-circle"></i> Buffet Food</p>
+                            <p class="card-text mb-2"><i class="fas fa-check-circle"></i> Premium Decoration</p>
+                            <p class="card-text"><i class="fas fa-check-circle"></i> Pay As Plan</p>
+                            <a href="#" class="btn btn-light rounded-pill card-link-text d-grid gap-2 d-md-block">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12 card card-radius card-margin border-0 card-padding shadow" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title card-title-padding card-title-font">$1200</h5>
+                            <h5 class="card-title card-title-padding card-title-font-2">Corporate event</h5>
+                            <p class="card-text text-color mb-2">For most corporate business events</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Full Space Access</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Dedicated Team</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Buffet Food</p>
+                            <p class="card-text text-color mb-2"><i class="fas fa-check-circle"></i> Premium Decoration</p>
+                            <p class="card-text text-color"><i class="fas fa-check-circle"></i> Pay As Plan</p>
+                            <a href="#" class="btn btn-light rounded-pill card-link-text d-grid gap-2 d-md-block">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
