@@ -16,6 +16,7 @@
     font-weight: 700;
     color: rgba(62, 62, 62, 1);
 }
+
 /* contect us style */
 .title-h1{
     font-size: 38px;
@@ -28,6 +29,7 @@
 .bg-contact{
     background-color: rgba(207, 226, 255, 1);
 }
+
 /* our packages style */
 .card-rounded{
     border-radius: 15px;
@@ -72,10 +74,13 @@
 .card-shadow-blue{
     box-shadow: 0px 8px 20px rgb(63, 139, 253)
 }
+
 /* FAQ style */
 #faq-margin{
     margin-bottom: 130px;
 }
+
+/* footer style */
 #bg-footer{
     background-color: black;
 }
